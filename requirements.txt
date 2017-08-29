@@ -1,0 +1,6 @@
+Collectors==1.0
+Django==1.9
+djangorestframework==3.6.4
+gunicorn==19.7.1
+postgis==1.0.3
+pytz==2017.2
