@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '9+d9s$x3ic*h5_)53t5q(7a9u0ag%aax_73u9ek-5vmoewq!^g'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['bakslash.pythonanywhere.com']
 
 
 # Application definition
@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'colap',
     'django.contrib.gis',
     'rest_framework',
-    
+
 ]
 
 MIDDLEWARE_CLASSES = [
